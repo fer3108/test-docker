@@ -17,9 +17,9 @@ COPY . .
 RUN npm run build
 
 # Puerto de exposición
-EXPOSE 3000
+EXPOSE 4173
 
 # Comando para ejecutar la aplicación
-CMD ["npm", "run", "preview"]  # Para Vite
+CMD ["npm", "run", "preview"] 
 # O usa esto para Create React App:
 # CMD ["npm", "start"]
